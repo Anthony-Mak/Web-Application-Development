@@ -3,35 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Page</title>
+    <title>John Doe - Profile</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>My Profile</h1>
+        <div class="header-content">
+            <div class="profile-avatar">
+                <i class="fas fa-user-circle"></i>
+            </div>
+            <h1>John Doe</h1>
+            <p class="subtitle">Full Stack Developer & Creative Thinker</p>
+        </div>
+        <div class="wave"></div>
     </header>
+    
     <div class="container">
         <section class="profile-info">
-            <h2>About Me</h2>
-            <p>Name: John Doe</p>
-            <p>Age: 25</p>
-            <p>Hobbies: Reading, Traveling, Coding</p>
+            <h2><i class="fas fa-user"></i> About Me</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-id-card"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>Name</h3>
+                        <p>John Doe</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>Age</h3>
+                        <p>25 years old</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>Location</h3>
+                        <p>New York, USA</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hobbies-section">
+                <h3><i class="fas fa-heart"></i> Hobbies & Interests</h3>
+                <div class="hobbies-tags">
+                    <span class="hobby-tag"><i class="fas fa-book"></i> Reading</span>
+                    <span class="hobby-tag"><i class="fas fa-plane"></i> Traveling</span>
+                    <span class="hobby-tag"><i class="fas fa-code"></i> Coding</span>
+                    <span class="hobby-tag"><i class="fas fa-camera"></i> Photography</span>
+                    <span class="hobby-tag"><i class="fas fa-music"></i> Music</span>
+                </div>
+            </div>
         </section>
+        
         <section class="contact-form">
-            <h2>Contact Me</h2>
+            <h2><i class="fas fa-envelope"></i> Get In Touch</h2>
+            <p class="form-description">I'd love to hear from you! Drop me a message and I'll get back to you soon.</p>
             <form action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <div class="form-group">
+                    <label for="name"><i class="fas fa-user"></i> Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
                 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <div class="form-group">
+                    <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
                 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+                <div class="form-group">
+                    <label for="message"><i class="fas fa-comment"></i> Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
                 
-                <button type="submit">Send</button>
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i>
+                    Send Message
+                </button>
             </form>
         </section>
     </div>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://linkedin.com/in/rukudzo-makuwaza" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/rukudzo_makuwaza" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/rukudzo_makuwaza" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2024 Rukudzo Anthony Makuwaza. Made with <i class="fas fa-heart"></i></p>
+        </div>
+    </footer>
 </body>
 </html>
