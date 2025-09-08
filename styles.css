@@ -11,13 +11,13 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     color: #333;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #87ceeb 0%, #4a90e2 100%);
     min-height: 100vh;
 }
 
 /* Header Styles */
 header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #87ceeb 0%, #4a90e2 100%);
     color: white;
     text-align: center;
     padding: 3rem 1rem 0;
@@ -94,7 +94,7 @@ section:hover {
 }
 
 section h2 {
-    color: #667eea;
+    color: #4a90e2;
     font-size: 2rem;
     margin-bottom: 1.5rem;
     display: flex;
@@ -103,7 +103,7 @@ section h2 {
 }
 
 section h2 i {
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #87ceeb, #4a90e2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -122,19 +122,19 @@ section h2 i {
     align-items: center;
     gap: 1rem;
     padding: 1.5rem;
-    background: linear-gradient(135deg, #f8f9ff, #e8eeff);
+    background: linear-gradient(135deg, #f0f8ff, #e6f3ff);
     border-radius: 15px;
-    border-left: 4px solid #667eea;
+    border-left: 4px solid #4a90e2;
     transition: all 0.3s ease;
 }
 
 .info-card:hover {
     transform: translateX(5px);
-    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.15);
+    box-shadow: 0 10px 25px rgba(74, 144, 226, 0.15);
 }
 
 .info-icon {
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #87ceeb, #4a90e2);
     color: white;
     padding: 0.8rem;
     border-radius: 50%;
@@ -143,7 +143,7 @@ section h2 i {
 }
 
 .info-content h3 {
-    color: #667eea;
+    color: #4a90e2;
     font-weight: 600;
     margin-bottom: 0.25rem;
 }
@@ -159,7 +159,7 @@ section h2 i {
 }
 
 .hobbies-section h3 {
-    color: #667eea;
+    color: #4a90e2;
     font-size: 1.3rem;
     margin-bottom: 1rem;
     display: flex;
@@ -177,7 +177,7 @@ section h2 i {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #87ceeb, #4a90e2);
     color: white;
     padding: 0.6rem 1.2rem;
     border-radius: 25px;
@@ -189,7 +189,7 @@ section h2 i {
 
 .hobby-tag:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 5px 15px rgba(135, 206, 235, 0.4);
 }
 
 /* Form Styles */
@@ -209,7 +209,7 @@ label {
     align-items: center;
     gap: 0.5rem;
     font-weight: 600;
-    color: #667eea;
+    color: #4a90e2;
     margin-bottom: 0.5rem;
     font-size: 1rem;
 }
@@ -217,19 +217,19 @@ label {
 input, textarea {
     width: 100%;
     padding: 1rem 1.2rem;
-    border: 2px solid #e1e8f7;
+    border: 2px solid #d6ebff;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     transition: all 0.3s ease;
-    background: #f8f9ff;
+    background: #f0f8ff;
 }
 
 input:focus, textarea:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: #4a90e2;
     background: white;
-    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    box-shadow: 0 0 0 3px rgba(135, 206, 235, 0.2);
     transform: translateY(-1px);
 }
 
@@ -239,7 +239,7 @@ textarea {
 }
 
 .submit-btn {
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #87ceeb, #4a90e2);
     color: white;
     border: none;
     padding: 1rem 2.5rem;
@@ -253,12 +253,12 @@ textarea {
     align-items: center;
     gap: 0.5rem;
     margin: 0 auto;
-    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 10px 30px rgba(135, 206, 235, 0.3);
 }
 
 .submit-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 15px 40px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 15px 40px rgba(135, 206, 235, 0.4);
 }
 
 .submit-btn:active {
@@ -267,7 +267,7 @@ textarea {
 
 /* Footer */
 footer {
-    background: #2c3e50;
+    background: #2c5f85;
     color: white;
     padding: 2rem 0;
     text-align: center;
@@ -291,7 +291,7 @@ footer {
     justify-content: center;
     width: 50px;
     height: 50px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: #87ceeb;
     color: white;
     border-radius: 50%;
     text-decoration: none;
@@ -301,7 +301,7 @@ footer {
 
 .social-link:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 10px 25px rgba(135, 206, 235, 0.4);
 }
 
 .footer-content i.fas.fa-heart {
